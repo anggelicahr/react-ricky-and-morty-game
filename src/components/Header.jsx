@@ -5,9 +5,11 @@ import '../assets/styles/components/Header.scss';
 
 function Header() {
     return (
-        <header className="header">
-            <h5>Hello World!</h5>
-        </header>
+        <nav className="header">
+            <div className="nav-wrapper">
+                <a href="#!" className="brand-logo">Logo</a>
+            </div>
+        </nav>
     );
   }
   
